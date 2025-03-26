@@ -367,7 +367,7 @@ function App() {
                 marginRight: "5px",
                 backgroundColor: "beige",
                 backgroundColor: "#948fee",
-                width: "250px",
+                width: "185px",
                 height: "50px",
                 borderRadius: "10px",
                 fontSize: "larger",
@@ -380,6 +380,26 @@ function App() {
                 console.log(value)
               }}
               ></input>
+              <input
+              value="0"
+              type="button"
+              style={{
+                marginBottom: "20px",
+                marginRight: "5px",
+                backgroundColor: "beige",
+                backgroundColor: "#948fee",
+                width: "60px",
+                height: "55px",
+                borderRadius: "10px",
+                fontSize: "larger",
+                border: "1px solid",
+              }}
+             onClick={(e)=>{
+              setValue(value+e.target.value)
+             }}
+              >
+              
+              </input>
             </div>
           </form>
         </div>
